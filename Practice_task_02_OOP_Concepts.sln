@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_task_02_OOP_Concepts", "Practice_task_02_OOP_Concepts\Practice_task_02_OOP_Concepts.csproj", "{4220170F-FA64-42C2-97E1-C456EBA011BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4220170F-FA64-42C2-97E1-C456EBA011BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4220170F-FA64-42C2-97E1-C456EBA011BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4220170F-FA64-42C2-97E1-C456EBA011BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4220170F-FA64-42C2-97E1-C456EBA011BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4C4532E-C20F-4285-AA3C-14100B691AFE}
+	EndGlobalSection
+EndGlobal
