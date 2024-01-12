@@ -10,12 +10,12 @@
             Console.WriteLine($"Child class object calling parent method:");
             child.Print();
 
-            Console.WriteLine("\nStatic polymorphism - methods with same names but different signatures:");
+            Console.WriteLine("\nStatic polymorphism (method overloading) - methods with same names, in the same class, but with different signatures:");
             StaticPolymorphism s = new StaticPolymorphism();
             Console.WriteLine($"Calling Add method by passing two integers: 1 + 2 = {s.Add(1, 2)}");
             Console.WriteLine($"Calling Add method by passing two strings: a + b = {s.Add("a", "b")}");
 
-            Console.WriteLine("\nDynamic polymorphism - methods with same names but different signatures:");
+            Console.WriteLine("\nDynamic polymorphism (method overriding) - methods with same names and signatures but in different classes:");
             DynamicPolymorphismParent parentD = new DynamicPolymorphismParent();
             DynamicPolymorphismChild childD = new DynamicPolymorphismChild();
             Console.WriteLine($"Calling parent Show method:");
